@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;}
+
+header div p{
+    background-color: #1CD1B0;
+    padding: 2px 0px 2px 10px;
+    }
+body {
+    height: 1000px;
+}
+
+h1{
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px 0px #00000040;
+    position: sticky;
+    top: 0;
+    padding: 10px 0px 10px 20px;
+    height: 60px;
+    z-index: 10;
+}
+section{ 
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+section article{
+    position: relative;
+    width: 300px;
+    margin: 100px 0px;
+    text-align: center;
+    background-color: #F3F3F3;
+    border-radius: 16px 16px 0px 0px ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+article div.bg-card {
+    width: 100%;
+    height: 194px;
+    text-align: left;
+    padding: 10px; 
+    border-radius: 16px 16px 0px 0px;
+    
+}
+.batman {
+    background-image: url(../img/fondoB.png);
+}
+.Harly {
+    background-image:url(../img/FondoHarly.png) ;
+}
+
+.fa-heart {
+    color: red;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+
+.profile {
+    position: absolute;
+    left: 90px;
+    top: 125px;
+    border-radius: 50%;
+}
+
+h3 {
+    padding-top: 60px;
+    font-size: 30px;
+}
+
+article p{
+    padding: 20px;
+    text-align: left;
+
+}
+article button {
+    padding: 15px 35px;
+    margin-bottom: 30px  ;
+    border: none;
+    background-color:#00669F;
+    cursor: pointer;
+    color: white;
+    margin:18px;
+}
+footer{ 
+    background-color: #00669F;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    ;
+}
