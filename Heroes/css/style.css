@@ -51,7 +51,13 @@ article div.bg-card {
 .Harly {
     background-image:url(../img/FondoHarly.png) ;
 }
+.super {
+    background-image: url(../img/Fondo\ Superman.png);
+}
 
+.mujer {
+    background-image:url(../img/Fondo\ Mujer.png)  
+}
 .fa-heart {
     color: red;
     font-size: 24px;
@@ -59,11 +65,11 @@ article div.bg-card {
     padding-left: 10px;
     
 }
-
 .profile {
     position: absolute;
     left: 90px;
     top: 125px;
+    width: 122px;
     border-radius: 50%;
 }
 
